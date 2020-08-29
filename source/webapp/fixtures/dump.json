@@ -1,0 +1,564 @@
+[
+{
+  "model": "webapp.poll",
+  "pk": 1,
+  "fields": {
+    "question": "Where were you born?",
+    "created_at": "2020-08-29T05:57:36Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 2,
+  "fields": {
+    "question": "What is your gender?",
+    "created_at": "2020-08-29T05:57:43Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 3,
+  "fields": {
+    "question": "What is your education?",
+    "created_at": "2020-08-29T05:59:08Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 4,
+  "fields": {
+    "question": "What is your nationality?",
+    "created_at": "2020-08-29T05:59:16Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 5,
+  "fields": {
+    "question": "What is your family status?",
+    "created_at": "2020-08-29T05:59:45Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 6,
+  "fields": {
+    "question": "How many children do you have?",
+    "created_at": "2020-08-29T06:00:06Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 7,
+  "fields": {
+    "question": "What is your profession?",
+    "created_at": "2020-08-29T06:00:18Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 8,
+  "fields": {
+    "question": "Where do you work?",
+    "created_at": "2020-08-29T06:00:35Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 9,
+  "fields": {
+    "question": "How long have you lived in this place?",
+    "created_at": "2020-08-29T06:01:09Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 10,
+  "fields": {
+    "question": "Where do you come from?",
+    "created_at": "2020-08-29T06:01:25Z"
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 1,
+  "fields": {
+    "option": "Kyrgyzstan",
+    "poll": 1
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 2,
+  "fields": {
+    "option": "Kazakhstan",
+    "poll": 1
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 3,
+  "fields": {
+    "option": "Uzbekistan",
+    "poll": 1
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 4,
+  "fields": {
+    "option": "Tajikistan",
+    "poll": 1
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 5,
+  "fields": {
+    "option": "Male",
+    "poll": 2
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 6,
+  "fields": {
+    "option": "Female",
+    "poll": 2
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 7,
+  "fields": {
+    "option": "Secondary incomplete",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 8,
+  "fields": {
+    "option": "Secondary",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 9,
+  "fields": {
+    "option": "Secondary professional",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 10,
+  "fields": {
+    "option": "Higher",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 11,
+  "fields": {
+    "option": "Other",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 12,
+  "fields": {
+    "option": "Kyrgyz",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 13,
+  "fields": {
+    "option": "Uzbek",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 14,
+  "fields": {
+    "option": "Russian",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 15,
+  "fields": {
+    "option": "Tajik",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 16,
+  "fields": {
+    "option": "Uigur",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 17,
+  "fields": {
+    "option": "Other",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 18,
+  "fields": {
+    "option": "Married",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 19,
+  "fields": {
+    "option": "Single",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 20,
+  "fields": {
+    "option": "Divorced",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 21,
+  "fields": {
+    "option": "Widow(er)",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 22,
+  "fields": {
+    "option": "0",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 23,
+  "fields": {
+    "option": "1",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 24,
+  "fields": {
+    "option": "2",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 25,
+  "fields": {
+    "option": "3 or more",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 26,
+  "fields": {
+    "option": "agronomist",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 27,
+  "fields": {
+    "option": "zoo-technician",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 28,
+  "fields": {
+    "option": "veterinarian",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 29,
+  "fields": {
+    "option": "teacher",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 30,
+  "fields": {
+    "option": "doctor/nurse",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 31,
+  "fields": {
+    "option": "economist",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 32,
+  "fields": {
+    "option": "lawyer",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 33,
+  "fields": {
+    "option": "engineer",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 34,
+  "fields": {
+    "option": "driver",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 35,
+  "fields": {
+    "option": "other",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 36,
+  "fields": {
+    "option": "no profession",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 37,
+  "fields": {
+    "option": "unemployed",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 38,
+  "fields": {
+    "option": "agriculture",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 39,
+  "fields": {
+    "option": "education",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 40,
+  "fields": {
+    "option": "health service",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 41,
+  "fields": {
+    "option": "local self-government",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 42,
+  "fields": {
+    "option": "trade",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 43,
+  "fields": {
+    "option": "construction",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 44,
+  "fields": {
+    "option": "transport and communication",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 45,
+  "fields": {
+    "option": "industry",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 46,
+  "fields": {
+    "option": "other",
+    "poll": 8
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 47,
+  "fields": {
+    "option": "Since birth",
+    "poll": 9
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 48,
+  "fields": {
+    "option": "1-5 years",
+    "poll": 9
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 49,
+  "fields": {
+    "option": "6-10 years",
+    "poll": 9
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 50,
+  "fields": {
+    "option": "11-20 years",
+    "poll": 9
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 51,
+  "fields": {
+    "option": "more then 20 years",
+    "poll": 9
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 52,
+  "fields": {
+    "option": "Where do you come from?",
+    "poll": 10
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 53,
+  "fields": {
+    "option": "Country",
+    "poll": 10
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 54,
+  "fields": {
+    "option": "Province/Oblast",
+    "poll": 10
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 55,
+  "fields": {
+    "option": "District/Rayon",
+    "poll": 10
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 56,
+  "fields": {
+    "option": "City",
+    "poll": 10
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 57,
+  "fields": {
+    "option": "Rural municipality",
+    "poll": 10
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 58,
+  "fields": {
+    "option": "Village within the same rural municipality",
+    "poll": 10
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$OfD3obM8xsEW$aODIFD8oSeCUjdvYxj+AVWEgEWl+K7p6MJ2hXYBZUmw=",
+    "last_login": "2020-08-29T05:55:25.612Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-29T05:55:13.132Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

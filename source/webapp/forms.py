@@ -3,13 +3,13 @@ from django import forms
 from webapp.models import Poll, Choice
 
 
-class ProjectsForm(forms.ModelForm):
+class PollForms(forms.ModelForm):
     class Meta:
         model = Poll
         fields = ['question']
 
 
-class ChoiceForm(forms.ModelForm):
+class ChoicePollForms(forms.ModelForm):
     class Meta:
         model = Choice
         fields = ['option']
