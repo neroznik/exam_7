@@ -15,8 +15,8 @@
         <div class="row ">
             <div class="col-md-7">
         <p class = "title"><a href="{% url "poll_view" pl.pk %}">{{ pl.question }}</a></p>
-        <div class="parameters"><p>Вопрос создан: {{ pl.created_at }} </p>
-        <p>Ответы: {% for choice in pl.Choice.all %}{{ choice.option }}{% if not forloop.last %}, {%  endif %} {% endfor %}</p>
+        <div class="parameters"><p>Created: {{ pl.created_at }} </p>
+        <p>Options: Total {{ pl.choices.count }} </p>
          </div>
             </div>
         <div class="col-md-5">
