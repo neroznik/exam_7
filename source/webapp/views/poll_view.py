@@ -29,13 +29,10 @@ class PollView(DetailView):
 
 
 
-
-
 class PollCreateView(CreateView):
     template_name = 'poll/poll_create.html'
     form_class = PollForms
-    fields = ['question']
-
+    model = Poll
 
     def get_success_url(self):
         return reverse('poll_view', kwargs={'pk': self.object.pk})

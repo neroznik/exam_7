@@ -1,0 +1,18 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Delete{% endblock %}
+
+{% block menu %}
+    <li><a href="#">Отмена</a></li>
+{% endblock %}
+
+{% block content %}
+    <div class="block1">
+    <h1>Вы уверены, что хотите удалить вопрос "{{ poll.question }}"?</h1>
+      <form action="{% url "poll_delete" poll.pk %}" method="post">
+        {% csrf_token %}
+        <p><input type="submit" value="Да"></p>
+        <p><a href="{% url 'poll_view' poll.pk %}">Отмена</a></p>
+    </form>
+{% endblock %}

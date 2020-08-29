@@ -1,0 +1,23 @@
+ 
+{% extends 'base.html' %}
+
+{% block title %}Task{% endblock %}
+
+{% block menu %}
+    <li><a href="#">Update</a></li>
+    <li><a href="#">Delete</a></li>
+{% endblock %}
+
+{% block content %}
+    <div class="block1">
+    <h1>{{ poll.question}}</h1>
+    <p>Создан: {{ poll.created_at }}</p>
+    <p>Ответы:</p>
+    {% for obj in poll.choice.all %}
+        <div class="card" style="width: 18rem;">
+        <p class="card-text"> 123{{ obj.option }} </p>
+        </div>
+
+        {% endfor %}
+    </div>
+{% endblock %}

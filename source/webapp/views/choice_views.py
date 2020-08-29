@@ -6,6 +6,7 @@ from webapp.forms import ChoicePollForms
 from webapp.models import Choice
 
 
+
 class ChoicePollCreateView(CreateView):
     model = Choice
     template_name = 'choice/choice_create.html'
@@ -13,10 +14,10 @@ class ChoicePollCreateView(CreateView):
 
     def form_valid(self, form):
         poll = get_object_or_404(Choice, pk=self.kwargs.get('pk'))
-        option = form.save(commit=False)
-        option.poll = option
-        option.save()
-        return option('poll_view', pk=poll.pk)
+        choice = form.save(commit=False)
+        choice.poll = choice
+        choice.save()
+        return choice('poll_view', pk=poll.pk)
 
 
 
