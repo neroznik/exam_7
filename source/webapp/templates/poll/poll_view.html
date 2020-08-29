@@ -16,10 +16,10 @@
     {% for obj in poll.choices.all %}
         <div class="list">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-5">
         <p class="card-text"> - {{ obj.option }} </p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-3">
                 <a class="btn btn-outline-info" href="{% url 'choice_update' obj.pk %}"> <i class="fa fa-fw fa-edit"></i></a>
                 <a class="btn btn-outline-dark" href="{% url 'choice_delete' obj.pk %}"> <i class="fa fa-fw fa-trash"></i></a>
         </div>
